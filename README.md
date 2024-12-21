@@ -30,4 +30,5 @@ npm install
 ```bash
 node index
 node index
+node index
 ```
