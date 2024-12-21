@@ -29,4 +29,5 @@ npm install
 6) Start
 ```bash
 node index
+node index
 ```
