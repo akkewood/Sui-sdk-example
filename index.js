@@ -12,7 +12,6 @@ import { isBigUint64Array } from 'util/types';
 consoleStamp(console, { format: ':date(HH:MM:ss)' });
 
 const STAKIN_ADDRESSES = [
-    '0x8cca65e767d52f4538f2929e8ea13e4957fea85d',
     '0x47fd0740af34c4a0637c5b7970bab029c7fdf148',
     '0x8ffe1349c12c596a38b65800d2d98c9db0e38094',
     '0xa2ea08f0fe3f1f21c1c626c55066ae25595ed88d',
