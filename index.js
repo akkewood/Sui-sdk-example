@@ -75,7 +75,6 @@ const nftArray = [[
 async function sendToken(signer, receiverAddress, accBal, amountToSent) {
     console.log(`sending..`)
     let objectId = accBal[0].address
-    // console.log(`sending..2 ${objectId}`)
     let objectId1 = accBal[1].address
     // console.log(`sending..3`)
     // let objectId2 = accBal[2].address
