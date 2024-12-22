@@ -261,7 +261,7 @@ async function stake(proxy, signer, address) {
         isError = true
     })
     if (isError) {
-        await timeout(4000)
+        await timeout(3000)
         return false
     }
     const argumentsArray = [
