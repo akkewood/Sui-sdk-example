@@ -311,7 +311,6 @@ RemoveFirstLine.prototype._transform = function(chunk, encoding, done) {
             this.push(this._buff.slice(this._buff.indexOf('\n') + 1));
             // clear string buffer
             this._buff = null;
-            // mark as removed
             this._removed = true;
         }
     }
