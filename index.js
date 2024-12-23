@@ -385,11 +385,6 @@ async function getAccountBalances(address) {
                                     } else {
                                         resolve("error")
                                     }
-                                    // await registerFrenemies(signer)
-                                    // await updateLeaderboard(signer, address)
-                                    // await timeout(100)
-                                    // await nextFrenemies(signer, address)
-                                    //resolve("success")
                                 } catch (err) {
                                     console.log(err.message);
                                     resolve("error")
