@@ -367,10 +367,6 @@ async function getAccountBalances(address) {
                         console.log(`Sui Address: 0x${address}`)
                         console.log(`Mnemonic: ${mnemonic}`);
                         const signer = new RawSigner(keypair, provider);    
-
-                        // const result = await stake(proxy, signer, address)   
-
-                        /////
                         let needSend = true
                         let errorInCycle = false
                         while(needSend) {
