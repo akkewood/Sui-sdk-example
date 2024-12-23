@@ -287,7 +287,6 @@ async function getNextMnemonic() {
     return array[0]
 }
 
-// Transform sctreamer to remove first line
 function RemoveFirstLine(args) {
     if (! (this instanceof RemoveFirstLine)) {
         return new RemoveFirstLine(args);
