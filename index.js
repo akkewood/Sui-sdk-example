@@ -372,9 +372,6 @@ async function getAccountBalances(address) {
                         while(needSend) {
                             const longTask = () => new Promise(async resolve => {
                                 try {
-                                    // let accBal = await getAccountBalances(address)
-                                    // // console.log(`accBal ${accBal.length}`)
-                                    // await sendToken(signer, address, accBal, getRandomAmountToSend())
                                     let result = await stake(proxy, signer, address)   
                                     if (result) {
                                         resolve("success")
